@@ -1,7 +1,3 @@
-/**
- *   Hard coded types vs inferred types
- */
-
 function buildLogger() {
     return {
         logInt(n) {

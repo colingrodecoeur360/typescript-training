@@ -1,7 +1,3 @@
-/**
- *   Basic types
- */
-
 function multiply(a, b) {
     return a * b;
 }

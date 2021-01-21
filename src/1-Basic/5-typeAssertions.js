@@ -1,7 +1,3 @@
-/**
- *   Return type of a function
- */
-
 async function buildUserScore(user) {
     const attempts = await fetchUserAttempts(user);
     return average(attempts.map(getScore));

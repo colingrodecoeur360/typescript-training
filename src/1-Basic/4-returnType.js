@@ -1,7 +1,3 @@
-/**
- *   Return type of a function
- */
-
 async function buildUserScore(user) {
     const role = await fetchRole(user);
     if (role === "Admin") return 100;

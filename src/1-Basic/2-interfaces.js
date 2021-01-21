@@ -1,7 +1,3 @@
-/**
- *   Interfaces
- */
-
 function isAdmin(user) {
     if (user.name === "Sebastien Mignot") return true;
     if (user.codeStyle === "getData") return false;
