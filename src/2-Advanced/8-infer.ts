@@ -11,7 +11,15 @@ async function run() {
     return result;
 }
 
-async function pall(object) {
+type ResolveType<T> = T extends Promise<infer U> ? U : T;
+
+async function pall<T>(
+    object: T
+): Promise<
+    {
+        [key in keyof T]: ResolveType<T[key]>;
+    }
+> {
     const entries = Object.entries(object);
     const awaitedEntries = await Promise.all(
         entries.map(async ([key, value]) => [key, await value])
