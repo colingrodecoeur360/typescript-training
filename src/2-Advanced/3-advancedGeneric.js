@@ -1,4 +1,4 @@
-// question 1: type this
+// question 1: type buildNotifier
 // question 2: how would you add an indefinite number of arguments instead of just 1
 
 function buildNotifier() {
