@@ -1,4 +1,7 @@
 module.exports = {
-    require: ["ts-node/register", "module-alias/register"],
-    spec: `src/**/*.unit.ts`
+    require: "ts-node/register",
+    extensions: ["js", "ts"],
+    spec: [
+        "src/**/*.unit.{ts,js}"
+    ],
 };

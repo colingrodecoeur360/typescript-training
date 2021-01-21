@@ -1,4 +1,2 @@
 node_modules
-dist
-.idea
-yarn-error.log
+yarn.lock

@@ -1,15 +1,3 @@
-# TypeScript training
+# Book club - TypeScript
 
-## What it includes
-
-- TypeScript
-- Prettier
-- EsLint (@typescript-eslint)
-- Mocha 
-
-## Installation
-
-```
-yarn install
-```
-
+This project consists of different "_problems_" to illustrate the usage of TypeScript.
